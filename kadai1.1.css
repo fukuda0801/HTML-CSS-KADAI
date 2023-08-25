@@ -9,6 +9,7 @@ body{
     position:absolute;
     padding-top:10px;
     padding-bottom:10px;
+    z-index:10;
 }
 
 @media screen and (max-width: 480px) {
@@ -36,7 +37,9 @@ body{
     align-self:center;
 }
 
-
+.headerlogo:hover{
+    opacity:0.6;
+}
 
 .headerlogo-image{
     display:block;
@@ -125,6 +128,10 @@ ul{
     display:block;
     color:#333333;
     text-decoration:none;
+}
+
+.headernavlistitem-link:hover{
+    opacity:0.6;
 }
 
 @media screen and (max-width: 480px) {
